@@ -1,29 +1,55 @@
 .appbarCSS {
     background-color: rgba(207, 207, 207, 0.18);
+    -webkit-backdrop-filter: blur(24px);
     backdrop-filter: blur(24px);
-    width: 1200px;
-    height: 100px;
+    height: 60px;
     display: block;
-    margin: 0 auto;
-    border-radius: 18px;
+    //-----------------------------
+    left: 50%;
+    transform: translate(-50%, 0);
+    //-----------------------------
+    border-radius: 8px;
     position: absolute;
     top: 30px;
-    right: 0;
-    left: 0;
+    width: 1200px;
+    display: flex;
+    align-items: center;
 }
 
 .logoCSS {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 32px;
-    padding-right: 67px;
+    margin-left: 32px;
+    margin-right: 67px;
 }
 
-.buttonCSS {
-    display: inline-block;
-    background-color: transparent;
+.textButtonCSS {
+    font-family: 'Onest';
     color: white;
-    border: none;
+    margin-right: 32px;
+    white-space: nowrap; //!
     cursor: pointer;
+    //---------------------- //!
+    // &:hover {
+    //     color: #41B7FF;
+    // }
+    //----------------------
+}
+
+.buttonCSS{
+    width: 175px;
+    height: 40px;
+    font-family: 'Onest';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    //----------------------- //!
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //-----------------------
+    border-radius: 8px;
+    border-color: transparent;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(210, 210, 210);
+    }
 }
