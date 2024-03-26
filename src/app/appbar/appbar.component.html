@@ -1,35 +1,19 @@
+<!-- рамка appbar-a -->
 <div class="appbarCSS">
+    <!-- контент appbar-a -->
+    <!-- логотип -->
     <img class="logoCSS" src="assets/svg/logo.svg">
+    <!-- кнопки с правой стороны -->
     @for (item of menuItems; track item) {
-        <a class="textButtonCSS">
-            {{item.title}} @if (item.hasIcon) {
+        <a class="textButtonCSS">{{item.title}}
+            @if (item.hasIcon) {
             <img src="assets/svg/arrow_icon.svg">
         }</a>
     }
     <!-- вопрос про единую стилизацию кнопок -->
-    <button style="margin-left: 51px; margin-right: 12px;" class="buttonCSS">Заказать воду</button>
-    <img style="margin-right: 12px;" src="assets/svg/bag_icon.svg">
-    <img src="assets/svg/user_icon.svg">
+    <!-- кнопка с левой стороны -->
+    <button class="buttonCSS appbarButtonSettingsCSS">Заказать воду</button>
+    <!-- + пара иконок -->
+    <img class="iconButtonCSS" src="assets/svg/bag_icon.svg">
+    <img class="iconButtonCSS" src="assets/svg/user_icon.svg">
 </div>
-
-<!-- <div class="page-title">
-    <div class="page-title__category">
-        02 kategoria
-    </div>
-
-    <div class="page-title__text">
-        zagolobok text
-    </div>
-</div>
-dfjvdk
-
-
-<div class="page-title">
-    <div class="page-title__category">
-        03 kategoria
-    </div>
-
-    <div class="page-title__text">
-        zagolobok text
-    </div>
-</div> -->

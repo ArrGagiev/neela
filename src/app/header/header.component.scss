@@ -1,5 +1,51 @@
-.headerCSS {
+  .headerCSS {
+    position: relative;
     width: 1440px;
     display: block;
     margin: 0 auto;
+  }
+
+  .titleCSS {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    //--------------------- как и куда вынести шрифты?
+    font-family: 'Onest';
+    font-size: 55px;
+    line-height: 60.5px;
+    font-weight: normal;
+    //---------------------
+    margin: 120px;
+    top: 140px;
+    color: white;
+  }
+
+  .subtitleCSS {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    //--------------------- 
+    font-family: 'Onest';
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600px;
+    //--------------------- 
+    margin: 120px;
+    top: 363px;
+    color: white;
+  }
+
+  .sloganCSS {
+    position: absolute;
+    width: 490px;
+    height: 30px;
+    //--------------------- 
+    font-family: 'Onest';
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600px;
+    //--------------------- 
+    margin: 120px;
+    top: 464px;
+    color: white;
   }

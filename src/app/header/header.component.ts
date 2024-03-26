@@ -9,5 +9,8 @@ import { AppbarComponent } from "../appbar/appbar.component";
     imports: [AppbarComponent]
 })
 export class HeaderComponent {
+    public title = 'Добро пожаловать в мир Neela Springs!';
+    public subtitle = 'Чистая питьевая вода для дома и офиса, созданная с заботой о вашем здоровье.';
+    public slogan = 'NEELA SPRINGS — ОСНОВА КАЧЕСТВА ЖИЗНИ!';
 
 }

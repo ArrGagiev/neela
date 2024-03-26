@@ -19,6 +19,7 @@
 .logoCSS {
     margin-left: 32px;
     margin-right: 67px;
+    cursor: pointer;
 }
 
 .textButtonCSS {
@@ -27,11 +28,9 @@
     margin-right: 32px;
     white-space: nowrap; //!
     cursor: pointer;
-    //---------------------- //!
-    // &:hover {
-    //     color: #41B7FF;
-    // }
-    //----------------------
+    &:hover {
+        color: rgb(210, 210, 210);
+    }
 }
 
 .buttonCSS{
@@ -51,5 +50,21 @@
     cursor: pointer;
     &:hover {
         background-color: rgb(210, 210, 210);
+    }
+}
+
+.appbarButtonSettingsCSS{
+    margin-left: 51px; 
+    margin-right: 12px;
+}
+
+.iconButtonCSS{
+    margin-right: 12px;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(75, 75, 75);
     }
 }
